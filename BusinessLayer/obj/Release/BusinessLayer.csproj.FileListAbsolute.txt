@@ -1,0 +1,15 @@
+D:\gayathri\StandardCodes\BusinessLayer\bin\Release\StandardCodes.BusinessLayer.dll
+D:\gayathri\StandardCodes\BusinessLayer\bin\Release\StandardCodes.BusinessLayer.pdb
+D:\gayathri\StandardCodes\BusinessLayer\obj\Release\ResolveAssemblyReference.cache
+D:\gayathri\StandardCodes\BusinessLayer\obj\Release\StandardCodes.BusinessLayer.dll
+D:\gayathri\StandardCodes\BusinessLayer\obj\Release\StandardCodes.BusinessLayer.pdb
+D:\gayathri\StandardCodes_phase1\BusinessLayer\bin\Release\StandardCodes.BusinessLayer.dll
+D:\gayathri\StandardCodes_phase1\BusinessLayer\bin\Release\StandardCodes.BusinessLayer.pdb
+D:\gayathri\StandardCodes_phase1\BusinessLayer\obj\Release\ResolveAssemblyReference.cache
+D:\gayathri\StandardCodes_phase1\BusinessLayer\obj\Release\StandardCodes.BusinessLayer.dll
+D:\gayathri\StandardCodes_phase1\BusinessLayer\obj\Release\StandardCodes.BusinessLayer.pdb
+D:\gayathri\StandardCodes_phase2\BusinessLayer\bin\Release\StandardCodes.BusinessLayer.dll
+D:\gayathri\StandardCodes_phase2\BusinessLayer\bin\Release\StandardCodes.BusinessLayer.pdb
+D:\gayathri\StandardCodes_phase2\BusinessLayer\obj\Release\ResolveAssemblyReference.cache
+D:\gayathri\StandardCodes_phase2\BusinessLayer\obj\Release\StandardCodes.BusinessLayer.dll
+D:\gayathri\StandardCodes_phase2\BusinessLayer\obj\Release\StandardCodes.BusinessLayer.pdb

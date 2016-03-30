@@ -1,0 +1,14 @@
+C:\Documents and Settings\10116727.IEL-IHS\My Documents\Downloads\ProgressIndicator1.2_source\ProgressIndicator\ProgressIndicator\bin\Debug\ProgressControls.dll
+C:\Documents and Settings\10116727.IEL-IHS\My Documents\Downloads\ProgressIndicator1.2_source\ProgressIndicator\ProgressIndicator\bin\Debug\ProgressControls.pdb
+C:\Documents and Settings\10116727.IEL-IHS\My Documents\Downloads\ProgressIndicator1.2_source\ProgressIndicator\ProgressIndicator\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\10116727.IEL-IHS\My Documents\Downloads\ProgressIndicator1.2_source\ProgressIndicator\ProgressIndicator\obj\Debug\ProgressControls.ProgressIndicator.resources
+C:\Documents and Settings\10116727.IEL-IHS\My Documents\Downloads\ProgressIndicator1.2_source\ProgressIndicator\ProgressIndicator\obj\Debug\ProgressIndicator.csproj.GenerateResource.Cache
+C:\Documents and Settings\10116727.IEL-IHS\My Documents\Downloads\ProgressIndicator1.2_source\ProgressIndicator\ProgressIndicator\obj\Debug\ProgressControls.dll
+C:\Documents and Settings\10116727.IEL-IHS\My Documents\Downloads\ProgressIndicator1.2_source\ProgressIndicator\ProgressIndicator\obj\Debug\ProgressControls.pdb
+D:\gayathri\StandardCodes_phase2\ProgressIndicator\bin\Debug\ProgressControls.dll
+D:\gayathri\StandardCodes_phase2\ProgressIndicator\bin\Debug\ProgressControls.pdb
+D:\gayathri\StandardCodes_phase2\ProgressIndicator\obj\Debug\ResolveAssemblyReference.cache
+D:\gayathri\StandardCodes_phase2\ProgressIndicator\obj\Debug\ProgressControls.ProgressIndicator.resources
+D:\gayathri\StandardCodes_phase2\ProgressIndicator\obj\Debug\ProgressIndicator.csproj.GenerateResource.Cache
+D:\gayathri\StandardCodes_phase2\ProgressIndicator\obj\Debug\ProgressControls.dll
+D:\gayathri\StandardCodes_phase2\ProgressIndicator\obj\Debug\ProgressControls.pdb

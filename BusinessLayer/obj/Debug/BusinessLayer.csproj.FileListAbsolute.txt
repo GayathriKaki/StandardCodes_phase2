@@ -1,0 +1,20 @@
+D:\gayathri\StandardCodes\BusinessLayer\obj\Debug\ResolveAssemblyReference.cache
+D:\gayathri\StandardCodes\BusinessLayer\bin\Debug\StandardCodes.BusinessLayer.dll
+D:\gayathri\StandardCodes\BusinessLayer\bin\Debug\StandardCodes.BusinessLayer.pdb
+D:\gayathri\StandardCodes\BusinessLayer\obj\Debug\StandardCodes.BusinessLayer.dll
+D:\gayathri\StandardCodes\BusinessLayer\obj\Debug\StandardCodes.BusinessLayer.pdb
+D:\gayathri\Copy of StandardCodes\BusinessLayer\bin\Debug\StandardCodes.BusinessLayer.dll
+D:\gayathri\Copy of StandardCodes\BusinessLayer\bin\Debug\StandardCodes.BusinessLayer.pdb
+D:\gayathri\Copy of StandardCodes\BusinessLayer\obj\Debug\ResolveAssemblyReference.cache
+D:\gayathri\Copy of StandardCodes\BusinessLayer\obj\Debug\StandardCodes.BusinessLayer.dll
+D:\gayathri\Copy of StandardCodes\BusinessLayer\obj\Debug\StandardCodes.BusinessLayer.pdb
+C:\Documents and Settings\WFN34819\Desktop\Gayathri\StandardCodes\StandardCodes\BusinessLayer\bin\Debug\StandardCodes.BusinessLayer.dll
+C:\Documents and Settings\WFN34819\Desktop\Gayathri\StandardCodes\StandardCodes\BusinessLayer\bin\Debug\StandardCodes.BusinessLayer.pdb
+C:\Documents and Settings\WFN34819\Desktop\Gayathri\StandardCodes\StandardCodes\BusinessLayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\WFN34819\Desktop\Gayathri\StandardCodes\StandardCodes\BusinessLayer\obj\Debug\StandardCodes.BusinessLayer.dll
+C:\Documents and Settings\WFN34819\Desktop\Gayathri\StandardCodes\StandardCodes\BusinessLayer\obj\Debug\StandardCodes.BusinessLayer.pdb
+D:\gayathri\StandardCodes_phase2\BusinessLayer\bin\Debug\StandardCodes.BusinessLayer.dll
+D:\gayathri\StandardCodes_phase2\BusinessLayer\bin\Debug\StandardCodes.BusinessLayer.pdb
+D:\gayathri\StandardCodes_phase2\BusinessLayer\obj\Debug\ResolveAssemblyReference.cache
+D:\gayathri\StandardCodes_phase2\BusinessLayer\obj\Debug\StandardCodes.BusinessLayer.dll
+D:\gayathri\StandardCodes_phase2\BusinessLayer\obj\Debug\StandardCodes.BusinessLayer.pdb

@@ -1,0 +1,187 @@
+﻿<Page x:Class="StandardCodes.index"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:toolkit="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Layout.Toolkit"
+    xmlns:vsm="clr-namespace:System.Windows;assembly=WPFToolkit" 
+       Title="index" ShowsNavigationUI="False">
+    <Page.Resources >
+        <ResourceDictionary  Source="../Themes/MenuResource.xaml" />
+    </Page.Resources>
+    <Grid Width="Auto" Height="Auto" Background="Black">
+
+        <Image Name="image1" Stretch="Fill" HorizontalAlignment="Left" Width="249" Height="74" VerticalAlignment="Top" ClipToBounds="True" SnapsToDevicePixels="True" Source="../Images/TopLeft.png"></Image>
+        <Image Margin="248,0,83,0" Name="image2" Stretch="Fill" Source="../Images/Top.png" Height="74" VerticalAlignment="Top" />
+        <Image HorizontalAlignment="Right" Name="image3"  Stretch="Fill" Width="92" Source="../Images/TopRight.png" Height="74" VerticalAlignment="Top" />
+        <Image Margin="0,70,0,1" Name="image4" Stretch="Fill" Source="../Images/Left.png" Width="26" HorizontalAlignment="Left" />
+        <Image HorizontalAlignment="Right" Margin="0,72,0,-1" Name="image5" Stretch="Fill" Width="26" Source="../Images/Right.png" />
+        <StackPanel Margin="24,76,24,33" Name="stackPanel1" Background="White">
+            <!-- menu -->
+            <Grid Name="menuGrid" Margin="0" Background="White">
+
+                <Menu  Padding="0" Background="#81A4D2" Name="mnuMain"  BorderBrush="#81A4D2"   >
+                    <MenuItem BorderBrush="#81A4D2"  Header="Business Associate  "  ToolTip="This Link takes to Business Associate Request Page"  Name="mnuItemBA"  Click="mnuItemBA_Click" Style="{StaticResource MenuItemstyle}" Padding="6" IsChecked="False">
+                        <MenuItem.Icon>
+                            <Image Width="12"    Height="12" Source="../Images/closeico.gif" />
+                        </MenuItem.Icon>
+                        <MenuItem.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <VirtualizingStackPanel Orientation="Horizontal"/>
+                            </ItemsPanelTemplate>
+                        </MenuItem.ItemsPanel>
+                    </MenuItem>
+                    <Separator Margin="1" BorderBrush="Black"></Separator>
+                    <MenuItem Header="Field Reservoir Formation  " ToolTip="This Link takes to Field Reservoir Formation Request Page" BorderThickness="0" BorderBrush="#81A4D2" Name="mnuItemFieldR" Style="{StaticResource MenuItemstyle}" Padding="6" Click="mnuItemFieldR_Click">
+                        <MenuItem.Icon>
+                            <Image Width="12" Height="12" Source="../Images/closeico.gif" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <Separator Margin="1" BorderBrush="Black"></Separator>
+                    <MenuItem Header="Misc Request  " Name="mnuItemMisc" ToolTip="This Link takes to Misc Request Page" Style="{StaticResource MenuItemstyle}" Padding="6" Click="mnuItemMisc_Click">
+                        <MenuItem.Icon>
+                            <Image Width="12" Height="12" Source="../Images/closeico.gif" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <Separator Margin="1" BorderBrush="Black"></Separator>
+                    <MenuItem Header="QA  " Name="mnuItemQA" ToolTip="This Link takes to QA Page to view All Requests" Style="{StaticResource MenuItemstyle}" Padding="6" Click="mnuItemQA_Click">
+                        <MenuItem.Icon>
+                            <Image Width="12" Height="12" Source="../Images/closeico.gif" />
+                        </MenuItem.Icon>
+                        <!--<Menu Padding="0" Name="mnuSub" Background="#81A4D2" BorderBrush="White" BorderThickness="0">-->
+                            <MenuItem Header="Business Associate" Style="{StaticResource MenuItemstyle}" ToolTip="This Link takes to Business Associate Request Page"   Name="mnuItemBA7" IsChecked="False" Padding="6" Width="200">
+                                <MenuItem.Icon>
+                                    <Image Width="12"    Height="12" Source="../Images/closeico.gif" />
+                                </MenuItem.Icon>
+                                <MenuItem  Header="All" ToolTip="This Link takes to Business Associate - All Requests "  Width="200"   Name="mnuItemBA0"  Style="{StaticResource MenuItemstyle}" Padding="6" Click="mnuItemBA0_Click" >
+                                    <MenuItem.Icon>
+                                        <Image Width="12"    Height="12" Source="../Images/closeico.gif" />
+                                    </MenuItem.Icon>
+                                </MenuItem>
+                                <MenuItem  Header="Pending"   ToolTip="This Link takes to Business Associate - Pending Requests "  Width="200"   Name="mnuItemBA1" Click="mnuItemBA_Pending_click"   Style="{StaticResource MenuItemstyle}" Padding="6" >
+                                    <MenuItem.Icon>
+                                        <Image Width="12"    Height="12" Source="../Images/closeico.gif" />
+                                    </MenuItem.Icon>
+                                </MenuItem>
+                                <MenuItem  Header="Research" Width="200"  ToolTip="This Link takes to Business Associate - Research page"    Name="mnuItemBA2" Click="mnuItemBA_Research_click"    Style="{StaticResource MenuItemstyle}" Padding="6" >
+                                    <MenuItem.Icon>
+                                        <Image Width="12"    Height="12" Source="../Images/closeico.gif" />
+                                    </MenuItem.Icon>
+                                </MenuItem>
+                                <MenuItem  Header="Completed" Width="200"  ToolTip="This Link takes to Business Associate - Completed Requests "   Name="mnuItemBA3"  Click="mnuItemBA_Completed_click"   Style="{StaticResource MenuItemstyle}" Padding="6">
+                                    <MenuItem.Icon>
+                                        <Image Width="12"    Height="12" Source="../Images/closeico.gif" />
+                                    </MenuItem.Icon>
+                                </MenuItem>
+                                <MenuItem  Header="On Hold" Width="200"  ToolTip="This Link takes to Business Associate - On Hold Requests"    Name="mnuItemBA4" Click="mnuItemBA_Onhold_click"     Style="{StaticResource MenuItemstyle}" Padding="6" >
+                                    <MenuItem.Icon>
+                                        <Image Width="12"    Height="12" Source="../Images/closeico.gif" />
+                                    </MenuItem.Icon>
+                                </MenuItem>
+                            </MenuItem>
+
+
+                        <MenuItem Header="Field Reservoir Formation" ToolTip="This Link takes to Field Reservoir Formation Requests"  BorderThickness="0" BorderBrush="#81A4D2" Name="mnuItemFieldR1" Style="{StaticResource MenuItemstyle}" Padding="6">
+                            <MenuItem.Icon>
+                                    <Image Width="12" Height="12" Source="../Images/closeico.gif" />
+                                </MenuItem.Icon>
+                                <MenuItem   Header="All" ToolTip="This Link takes to Field Reservoir Formation -  All Requests"    Width="200"   Name="mnuItemFR0"  Click="mnuItemFR_All_click"   Style="{StaticResource MenuItemstyle}" Padding="6" >
+                                    <MenuItem.Icon>
+                                        <Image Width="12"    Height="12" Source="../Images/closeico.gif" />
+                                    </MenuItem.Icon>
+                                </MenuItem>
+                                <MenuItem   Header="Pending" ToolTip="This Link takes to Field Reservoir Formation -  Pending Requests"   Width="200"   Name="mnuItemFR1"  Click="mnuItemFR_Pending_click"   Style="{StaticResource MenuItemstyle}" Padding="6" >
+                                    <MenuItem.Icon>
+                                        <Image Width="12"    Height="12" Source="../Images/closeico.gif" />
+                                    </MenuItem.Icon>
+                                </MenuItem>
+                                <MenuItem   Header="Research" Width="200" ToolTip="This Link takes to Field Reservoir Formation - Research"  Name="mnuItemFR2"   Click="mnuItemFR_Research_click"  Style="{StaticResource MenuItemstyle}" Padding="6" >
+                                    <MenuItem.Icon>
+                                        <Image Width="12"    Height="12" Source="../Images/closeico.gif" />
+                                    </MenuItem.Icon>
+                                </MenuItem>
+                                <MenuItem   Header="Completed" Width="200"   Name="mnuItemFR3" ToolTip="This Link takes to Field Reservoir Formation -  Completed Requests"   Click="mnuItemFR_Completed_click"   Style="{StaticResource MenuItemstyle}" Padding="6">
+                                    <MenuItem.Icon>
+                                        <Image Width="12"    Height="12" Source="../Images/closeico.gif" />
+                                    </MenuItem.Icon>
+                                </MenuItem>
+                                <MenuItem   Header="On Hold" Width="200"   Name="mnuItemFR4"  Click="mnuItemFR_Onhold_click" ToolTip="This Link takes to Field Reservoir Formation -  On Hold"    Style="{StaticResource MenuItemstyle}" Padding="6" >
+                                    <MenuItem.Icon>
+                                        <Image Width="12"    Height="12" Source="../Images/closeico.gif" />
+                                    </MenuItem.Icon>
+                                </MenuItem>
+                            </MenuItem>
+
+                            <MenuItem Header="Misc Request" Name="mnuItemMisc1" ToolTip="This Link takes to Misc Requests"  Style="{StaticResource MenuItemstyle}" Padding="6" BorderBrush="#81A4D2">
+                                <MenuItem.Icon>
+                                    <Image Width="12" Height="12" Source="../Images/closeico.gif" />
+                                </MenuItem.Icon>
+                                <MenuItem   Header="All"   Width="200"  ToolTip="This Link takes to Misc Requests - All" Name="mnuItemMISC0"  Click="mnuItemMISC_All_click"   Style="{StaticResource MenuItemstyle}" Padding="6" >
+                                    <MenuItem.Icon>
+                                        <Image Width="12"    Height="12" Source="../Images/closeico.gif" />
+                                    </MenuItem.Icon>
+                                </MenuItem>
+                                <MenuItem   Header="Pending"   Width="200" ToolTip="This Link takes to Misc Requests - Pending"  Name="mnuItemMISC1" Click="mnuItemMISC_Pending_click"  Style="{StaticResource MenuItemstyle}" Padding="6" >
+                                    <MenuItem.Icon>
+                                        <Image Width="12"    Height="12" Source="../Images/closeico.gif" />
+                                    </MenuItem.Icon>
+                                </MenuItem>
+                                <MenuItem   Header="Research" Width="200"  ToolTip="This Link takes to Misc Requests - Research"  Name="mnuItemMisc2" Click="mnuItemMISC_Research_click"  Style="{StaticResource MenuItemstyle}" Padding="6" >
+                                    <MenuItem.Icon>
+                                        <Image Width="12"    Height="12" Source="../Images/closeico.gif" />
+                                    </MenuItem.Icon>
+                                </MenuItem>
+                                <MenuItem   Header="Completed" Width="200"  ToolTip="This Link takes to Misc Requests - Completed" Name="mnuItemMisc3" Click="mnuItemMISC_Completed_click"   Style="{StaticResource MenuItemstyle}" Padding="6">
+                                    <MenuItem.Icon>
+                                        <Image Width="12"    Height="12" Source="../Images/closeico.gif" />
+                                    </MenuItem.Icon>
+                                </MenuItem>
+                                <MenuItem    Header="On Hold" Width="200" ToolTip="Misc Requests - On Hold"  Name="mnuItemMisc4" Click="mnuItemMISC_Onhold_click"  Style="{StaticResource MenuItemstyle}" Padding="6" >
+                                    <MenuItem.Icon>
+                                        <Image Width="12"    Height="12" Source="../Images/closeico.gif" />
+                                    </MenuItem.Icon>
+                                </MenuItem>
+                                </MenuItem>
+                               
+                            
+                            <!--<Menu.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <VirtualizingStackPanel Orientation="Horizontal"/>
+                                </ItemsPanelTemplate>
+                            </Menu.ItemsPanel>
+
+                        </Menu>-->
+                    </MenuItem>
+                    <Separator Margin="1" BorderBrush="Black"></Separator>
+                    <MenuItem Header="About  " ToolTip="This Link takes to User Manual" BorderThickness="0" BorderBrush="#81A4D2" Name="mnuItemAbout" Style="{StaticResource MenuItemstyle}" Padding="6" Click="mnuItemAbout_Click">
+                        <MenuItem.Icon>
+                            <Image Width="12" Height="12" Source="../Images/closeico.gif" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <Separator Margin="1" Visibility="Hidden" BorderBrush="Black"></Separator>
+                    <MenuItem  Header="Search Request"  ToolTip="This Link takes to Search Page" BorderThickness="0" BorderBrush="#81A4D2" Name="mnuItemSearch" Style="{StaticResource MenuItemstyle}" Padding="6" Click="mnuItemSearch_Click">
+                        <MenuItem.Icon>
+                            <Image Width="12" Height="12" Source="../Images/closeico.gif" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <Separator Margin="1" BorderBrush="Black"></Separator>
+                    <!--<Menu.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <VirtualizingStackPanel Orientation="Vertical"/>
+                        </ItemsPanelTemplate>
+                    </Menu.ItemsPanel>-->
+                </Menu>
+
+            </Grid>
+            <ScrollViewer Name="scrollViewer1" VerticalScrollBarVisibility="Auto">
+                <Frame BorderBrush="LightGray" Background="White" BorderThickness="1" Name="frame2" ScrollViewer.CanContentScroll="True" />
+            </ScrollViewer>
+            <!-- menu ends -->
+
+        </StackPanel>
+        <Image Height="23" Margin="0,0,28,1" Name="image7" Stretch="Fill" VerticalAlignment="Bottom" Source="../Images/Bottom.png" HorizontalAlignment="Right"  />
+        <Image Height="23" HorizontalAlignment="Right" Margin="0,0,2,1" Name="image8" Stretch="Fill" VerticalAlignment="Bottom" Width="26" Source="../Images/BottomRight.png" />
+        <Image Height="23" Margin="0,0,0,1" Name="image6" Stretch="Fill" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="26" Source="../Images/BottomLeft.png" />
+        <Label Height="28" Margin="76,28,122,0" Name="lblheader" VerticalAlignment="Top" FontWeight="Bold">Standard Code Forms - Welcome Gail Cowan ; Role : Administrator</Label>
+        <StatusBar Height="14" Margin="23,0,24,21" Name="statusBar1" VerticalAlignment="Bottom" />
+        <Button Height="21" HorizontalAlignment="Right" Margin="0,0,24,0" Name="button1" VerticalAlignment="Top" Width="68" Foreground="White" Background="Transparent"   Click="button1_Click" BorderBrush="Transparent">Log Out</Button>
+    </Grid>
+
+</Page>

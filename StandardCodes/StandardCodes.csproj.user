@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <PublishUrlHistory>C:\Inetpub\wwwroot\StandardCodes\|C:\Inetpub\wwwroot\StandardCodes_phase2\|C:\Inetpub\wwwroot\stdcodes3\|C:\Inetpub\wwwroot\StCodes\|C:\Inetpub\wwwroot\stdcodes2\</PublishUrlHistory>
+    <InstallUrlHistory>http://blrmd094/StandardCodes/|http://v-vwc2dkalapp01/standardcodes/|http://blrmd094/StandardCodes_phase2/|http://blrmd094/standardcodes/|http://blrmd094/stdcodes3/</InstallUrlHistory>
+    <SupportUrlHistory>http://blrmd094/StandardCodes/StandardCodes.xbap|http://INHIU-HD318/StandardCodes/StandardCodes.xbap|http://INHIU-HD318/Code/StandardCodes.xbap|http://INHIU-HD318/Codes/StandardCodes.xbap|http://INHIU-HD318/StCodes/StandardCodes.xbap</SupportUrlHistory>
+    <UpdateUrlHistory>
+    </UpdateUrlHistory>
+    <BootstrapperUrlHistory>http://10.14.5.76/StCodes/|http://inhi1u-hd0701/StandardCodes/|http://inhi1u-hd0701/StCodes/|http://blrmd094/stcodes/</BootstrapperUrlHistory>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>true</VerifyUploadedFiles>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <ErrorReportUrlHistory />
+  </PropertyGroup>
+</Project>
